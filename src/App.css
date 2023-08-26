@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-item{
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.nav-item a:hover,
+.nav-item .active {
+  color:  #9010B0 !important;
+  text-decoration: underline;
+}
+/* .nav-item a:hover::before,
+.nav-item .active::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 17px;
+  background: #e2336b !important;} */
